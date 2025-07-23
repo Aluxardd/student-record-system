@@ -2,6 +2,26 @@
 
 This project is a Java-based application designed to simulate a comprehensive student record management system. The system facilitates the management of student information, including their names, IDs, addresses, courses, departments, and modules. It provides robust functionality to add new students, retrieve detailed information about a specific student by their ID, view all student records, and update existing student details such as course names or other attributes. The program is built with a focus on object-oriented principles, ensuring modularity and maintainability.
 
+# Adding students Page
+<img width="658" height="429" alt="Screenshot 2025-07-23 at 13 08 33" src="https://github.com/user-attachments/assets/b39f7b2e-9be5-4ddb-9518-9bae513c4c14" />
+<img width="615" height="404" alt="Screenshot 2025-07-23 at 13 11 50" src="https://github.com/user-attachments/assets/0c016c01-e540-4437-844c-b437cdcd551e" />
+<img width="612" height="398" alt="Screenshot 2025-07-23 at 13 10 57" src="https://github.com/user-attachments/assets/5e3d6fa7-9794-411d-b454-e29c27523f24" />
+
+
+# Viewing page
+<img width="610" height="403" alt="Screenshot 2025-07-23 at 13 11 07" src="https://github.com/user-attachments/assets/6ce781ab-2415-4f10-8f2b-68ffb84e2b54" />
+
+
+# Searching Page
+<img width="618" height="410" alt="Screenshot 2025-07-23 at 13 11 30" src="https://github.com/user-attachments/assets/b1e0667c-e045-4f56-b352-bdfe2a79c946" />
+
+
+# Updating Page
+<img width="615" height="404" alt="Screenshot 2025-07-23 at 13 11 50" src="https://github.com/user-attachments/assets/949463a8-6627-42e6-ac52-207da52429e6" />
+<img width="627" height="415" alt="Screenshot 2025-07-23 at 13 11 57" src="https://github.com/user-attachments/assets/b6fdc501-b5e7-42cf-bbbe-2c25398d2c78" />
+<img width="615" height="410" alt="Screenshot 2025-07-23 at 13 12 03" src="https://github.com/user-attachments/assets/d11a1cad-10dc-4f48-a37a-e04da34005ab" />
+<img width="606" height="410" alt="Screenshot 2025-07-23 at 13 12 10" src="https://github.com/user-attachments/assets/7a7dd222-7954-4e1e-afb5-3e70cf1882ec" />
+
 ## Features
 - **Add New Students**: Seamlessly add new student records with all relevant details, ensuring data consistency.
 - **Retrieve Student Information**: Search for a specific student by their unique ID or retrieve a complete list of all student records.
@@ -9,13 +29,6 @@ This project is a Java-based application designed to simulate a comprehensive st
 - **Organized Data Management**: Efficiently manage student data using structured data models, ensuring clarity and ease of access.
 - **Extensibility**: The system is designed to be easily extendable, allowing for the addition of new features such as advanced search filters or integration with external systems.
 
-## Limitations
-- **Scalability**: The current implementation may struggle to handle a large volume of student records efficiently due to the lack of a database or optimized data storage mechanisms. Performance may degrade as the dataset grows.
-- **Concurrency**: The program does not support multi-threaded or concurrent access, making it unsuitable for multi-user environments or real-time applications.
-- **Data Persistence**: Data is stored in-memory, meaning all records are lost when the program is closed unless explicitly saved to a file or database. This limits its usability for long-term data management.
-- **Input Validation**: Limited input validation mechanisms may lead to potential errors, such as invalid or inconsistent data being entered into the system.
-- **Error Handling**: The program may lack comprehensive error-handling mechanisms, which could result in crashes or undefined behavior in edge cases.
-- **User Interface**: The current implementation may rely on a command-line interface, which could be less user-friendly compared to graphical or web-based interfaces.
 
 ## Advantages
 - **Simplicity and Accessibility**: The program is straightforward and easy to use, making it ideal for small-scale applications, educational purposes, or as a starting point for more complex systems.
@@ -25,20 +38,6 @@ This project is a Java-based application designed to simulate a comprehensive st
 - **Portability**: As a Java application, the program is platform-independent and can run on any system with a compatible Java Runtime Environment (JRE).
 - **Foundation for Advanced Systems**: The project provides a solid foundation for building more advanced student management systems, such as those with web-based interfaces, RESTful APIs, or cloud-based storage solutions.
 
-This project is ideal for developers looking to explore the fundamentals of Java programming while working on a practical and meaningful application. It also serves as a starting point for building more sophisticated student management systems tailored to specific requirements.
-
----
-
-## Project Structure
-
-student-record-system ├── src │ ├── Main.java # Entry point of the application │ ├── Student.java # Class representing the student entity │ ├── StudentManager.java # Class handling student record operations (CRUD) │ ├── Utils.java # Utility methods for input validation and other helpers │ └── ... # Additional classes as needed ├── bin # Compiled .class files (generated after compilation) ├── data │ └── students.txt # Example file for saving student records ├── README.md # Project documentation ├── .gitignore # Git ignore file └── LICENSE # License file (if applicable)
-
-### Key Components:
-- **`Main.java`**: The main entry point of the application that initializes and runs the system.
-- **`Student.java`**: Represents the student entity with attributes like ID, name, address, course, etc.
-- **`StudentManager.java`**: Handles core operations such as adding, retrieving, updating, and deleting student records.
-- **`Utils.java`**: Contains helper methods for input validation, formatting, and other reusable utilities.
-- **`data/`**: Stores data files for persistence (optional, depending on implementation).
 
 ---
 
