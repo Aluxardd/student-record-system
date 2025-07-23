@@ -1,3 +1,4 @@
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -31,5 +32,9 @@ public class StudentRecordSystem {
         for (Student student : studentMap.values()) {
             System.out.println(student);
         }
+    }
+
+    public Collection<Student> getAllStudents() {
+        return studentMap.values();
     }
 }
